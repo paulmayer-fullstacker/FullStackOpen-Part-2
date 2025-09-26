@@ -1,4 +1,6 @@
-// Exercises 2.18.-2.20
+// Exercises 2.18.-2.20. 
+// See the README.md file for this project.
+
 // src/App.jsx:
 
 // Import React and the useState and useEffect hooks

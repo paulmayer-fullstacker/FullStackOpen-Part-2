@@ -27,6 +27,8 @@ set "VITE_OPENWEATHERMAP_API_KEY=open-weather-map-api-key-value" && npm run dev 
 
 That said, I have not been able to successfully overwrite the VITE_OPENWEATHERMAP_API_KEY value in this way. Thus, I only use the .env file route.
 
+For security, the .env file is not pushed to the repo (due to the .gitignore file). Copy the .example.env file, and create a new .env file. Edit the file such that: VITE_OPENWEATHERMAP_API_KEY=your-api-key-value-without-quotation-marks.
+
 
 ## Modulatisation
 
